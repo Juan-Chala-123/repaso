@@ -9,7 +9,9 @@ import java.util.jar.Attributes;
 
 /**
  *
- * @author CHALA RAMIREZ
+ * Sistema de estudiantes (Programación Orientada a Objetos)
+ * Diseñar una clase Estudiante que tenga como atributos: nombre, curso matriculado y tres calificaciones.
+* El programa debe permitir crear un estudiante, calcular su promedio y mostrar si aprueba o reprueba.
  */
 public class Estudiante {
     private String name, course;
