@@ -34,8 +34,10 @@ public class GreaterThreeNumbers {
             System.out.println("El numero " + num1 + " es mayor.");
         } else if (num2 > num1 && num2 > num3) {
             System.out.println("El numero " + num2 + " es mayor.");
-        } else {
+        } else if (num3 > num2 && num3 > num1) {
             System.out.println("El numero " + num3 + " es mayor.");
+        } else {
+            System.out.println("Son iguales los numeros");
         }
         
         sc.close();

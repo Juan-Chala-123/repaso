@@ -28,7 +28,7 @@ public class CalculoSalarioSemanal {
         
         int totalSalary = hour * paymentWeek;
         
-        System.out.print("Total: " + totalSalary);
+        System.out.println("Total: " + totalSalary);
         
         sc.close();
     }

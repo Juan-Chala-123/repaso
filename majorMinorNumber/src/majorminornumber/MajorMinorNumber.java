@@ -24,7 +24,7 @@ public class MajorMinorNumber {
         ArrayList<Byte> numbers = new ArrayList<>();
         
         System.out.println("Ingresa cuantos numeros desees.");
-        System.out.println("El programa termina hasta que ingreses -1.");
+        System.out.println("El programa termina hasta que ingreses un numero menor a cero.");
         
         
         byte nums;
@@ -33,11 +33,11 @@ public class MajorMinorNumber {
             System.out.print("Ingresa el numero: ");
             nums = sc.nextByte();
             
-            if (nums != -1) {
+            if (nums > 0) {
                 numbers.add(nums);
             }
             
-        } while (nums != -1);
+        } while (nums > 0);
         
         byte major = numbers.get(0);
         byte minor = numbers.get(0);

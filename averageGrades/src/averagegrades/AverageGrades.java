@@ -4,7 +4,6 @@
  */
 package averagegrades;
 
-import java.io.Closeable;
 import java.util.*;
 
 /**
